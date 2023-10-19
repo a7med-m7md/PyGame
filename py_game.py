@@ -52,7 +52,7 @@ def restart_game():
     if (game_threshold < TOTAL_SCORE):
         replay = input("Would you like to play again? (y/n)").lower()
         if replay == "n":
-            print_pause("Your Score: " + TOTAL_SCORE)
+            print_pause("Your Score: " + str(TOTAL_SCORE))
             print_pause("Thanks for playing! See you next time.")
         elif replay == "y":
             print_pause("Excellent! Restarting the game ...")
